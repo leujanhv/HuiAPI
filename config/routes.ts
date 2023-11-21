@@ -7,7 +7,7 @@
     icon: 'crown',
     access: 'canAdmin',
     routes: [
-      {name:'1', path: '/admin', redirect: '/admin/sub-page' },
+      { path: '/admin', redirect: '/admin/sub-page' },
       {name:'2', path: '/admin/sub-page', component: './Admin' },
     ],
   },
